@@ -23,3 +23,5 @@ if error_code =='00':
     print('Error code: Nil')
 else:
     print('Error code:', (int(error_code)+40))
+#close socket conneciton
+c.close()
